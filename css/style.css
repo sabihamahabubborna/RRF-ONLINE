@@ -1,0 +1,59 @@
+/* Base css */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin: 0 0 15px;
+font-weight: 700;
+}
+body{
+	font-family: 'open Sans', sans-serif;
+}
+a:hover{text-decoration: none;}
+
+
+.section-padding{
+	padding: 88px 0;
+}
+.single-service-box {
+    display: block;
+    border: 2px solid #eBeBeB;
+    border-radius: 3px;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    color: #333;
+    padding-top: 58px;
+}
+
+.service-icon {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: #54be73;
+    color: #fff;
+    font-size: 30px !important;
+    line-height: 70px !important;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -35px;
+    top: -35px;
+}
+.single-service-box p {
+  margin: 0;
+}
+
+.single-service-box h3 {
+    font-size: 20px;
+}
+.single-service-box:hover {
+   color:#333;
