@@ -32,62 +32,46 @@ a:hover{text-decoration: none;}
 .service-box-bg-3{
  background-image: url(../img/bg-3.jpeg);  
 }
-.service-box-bg-4{
- background-image: url(../img/bg-4.jpeg);  
-}
-.service-box {
-    height: 200px;
-    border-radius: 5px;
+
+.service-box-bg {
     background-size: cover;
-    color: #fff;
+    background-position: center;
+    background-color: #ddd;
+    height: 220px;
+}
+.service-box-inner {
+    border: 1px solid #r3r3r3;
+    border-top: 0px solid;
+    padding: 20px;
     text-align: center;
-    padding: 15px;
+}
+.single-service-box {
     position: relative;
-     z-index: 1;
-    overflow: hidden;
 }
-.service-box:after
-{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    background: #000;
-    z-index: -1;
-    opacity: .5;
-
-
-}
-a.boxed-btn {
-    background: yellow;
-    color: #fff;
-    padding: 10px;
-    text-transform: uppercase;
-    display: inline-block;
-    opacity: 0;
-    visibility: hidden;
-    transition:0.3s;
-}
-.service-box-hover {
+.service-box-more-wrapper {
     position: absolute;
     left: 0;
     bottom: -20px;
     width: 100%;
-    transition:.3s;
+    text-align: center;
 }
-.service-box-hover h3 {
-    font-size: 18px;
-    margin-bottom: 20px;
-    font-weight: normal;
+.service-box-inner h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-bottom: 8px;
 }
-.service-box:hover
-.service-box-hover{
-    bottom: 30px;
+p.service-meta {
+    opacity: .5;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 0px;
 }
-.service-box:hover
-.boxed-btn{
-  opacity: 1;
-  visibility: visible;
+a.porderes-btn {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #r3r3r3;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 30px;
 }
